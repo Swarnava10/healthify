@@ -1,0 +1,27 @@
+.Taskmanager{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.medicine{
+    padding: 18px 18px;
+    font-size: 16px;
+    margin-right: 0;
+}
+.emergency{
+    background-color: rgb(228, 12, 12);
+    padding: 15px 48px;
+    border: none;
+    margin-right: 0;
+}
+.newbtns{
+    margin-right: 0;
+}
+.logout_btn{
+    border-radius: 5px;
+    margin-top: 10px;
+}

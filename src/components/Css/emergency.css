@@ -1,0 +1,140 @@
+.Emergency{
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.emergency_containr{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 50px 0px 20px 0px;
+    border-radius: 25px;
+    border: 5px double black;
+}
+
+.txt_boxemer{
+    width: 90%;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-weight: 500;
+}
+.Select_box{
+    height: 50px;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px ;
+    background-color: rgb(20, 231, 83);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+option{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.emergency_button{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: white;
+}
+.send_emergency{
+    height: 70px;
+    width: 70px;
+    border-radius:50% ;
+    background-color: white;
+    border:none;
+    display: flex;
+    font-size: 10px;
+    font-weight: 500;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: inset 0px 0px 19px 4px rgba(0,0,0,0.11);
+    -moz-box-shadow: inset 0px 0px 19px 4px rgba(0,0,0,0.11);
+    box-shadow: inset 0px 0px 19px 4px rgba(0,0,0,0.11);
+}
+.medi_emergency{
+    font-size: 35px;
+}
+.emergency_route{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    margin-top: 15px;
+}
+
+.emergencystylecontainers{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.stylecontainer{
+    width: 55%;
+    border-radius: 800px 0px 0 0;
+    height: 400px;
+    background-color: rgb(216, 2, 2);
+   
+}
+.snakeLogo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 700px;
+    top: 200px;   
+}
+.emergencytxt{
+    color: black;
+}
+.patient{
+    background-color: white;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    color: black;
+    box-shadow: inset 8px 8px 8px #cbced1, 
+    inset -8px -8px -8px #ffffff;
+}
+.bed{
+    margin-bottom: 6px;
+}
+.bed2{
+    margin-bottom: 40px;
+}
+.emergencytextheads{
+    color: #000;
+    text-align: left;
+    font-size: 10px;
+    margin-bottom: 0;
+}
+.emer_txt{
+    width: 86%;
+}
+
+@media screen and (max-width:1100px) {
+    .Emergency{
+        overflow: hidden;
+    }
+    .snakeLogo{
+        display: none;
+    }   
+}
